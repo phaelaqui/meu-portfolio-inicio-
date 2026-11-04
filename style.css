@@ -2,7 +2,7 @@ body{
     background-color: #0A1430;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-
+}
 nav{
    position: fixed;
     top: 20px;
@@ -17,6 +17,7 @@ nav{
 nav a{
     text-decoration: none;
     color: white;
+   
 }
 
 img{
@@ -26,5 +27,15 @@ img{
     margin: auto;
 }
 
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+    }
+
+    nav {
+        gap: 20px;
+    }
+}
 
 
+    
